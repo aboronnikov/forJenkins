@@ -2,7 +2,7 @@ pipeline {
 
     agent {
             docker {
-                image 'hseeberger/scala-sbt'
+                image 'hseeberger/docker-sbt'
             }
         }
 
