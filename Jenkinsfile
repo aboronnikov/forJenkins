@@ -2,7 +2,7 @@ pipeline {
 
     agent {
             docker {
-                image 'hseeberger/docker-sbt'
+                image 'bigtruedata/sbt'
             }
         }
 
